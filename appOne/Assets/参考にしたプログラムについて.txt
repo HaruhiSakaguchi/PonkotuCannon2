@@ -1,0 +1,34 @@
+このプログラムは CodingOcean (https://www.youtube.com/user/ABCMART1)というYoutubeチャンネルで紹介しているLiboneライブラリを使って作成しました。
+
+以下、参考にしたソースのリンク
+・基礎　https://github.com/Coding-Ocean/OOP12
+・モデリング　https://github.com/Coding-Ocean/HIERARCHY_MATRIX　
+　モデリングというよりは、ここで紹介されていたモデルの頂点データをテキストに書き込んで、それを読み取ってモデルが作られています。この動画にないものも、頂点データを計算して作りました。
+　これはLiboneのシェーダーの、FBXデータをテキストに変換したものを読み取ってモデルを生成するという特性を利用したからです。
+    その影響かわかりませんが、ごくまれにメッシュの消去処理の際にクラッシュすることがあります。
+・カプセルの衝突判定　https://github.com/Coding-Ocean/InternalDivision
+ CapsuleComponentというクラスで使用しています。
+
+主にこの3つをベースに作成しました。
+
+MeshComponent
+BatchMeshComponent
+TreeMeshComponent
+COLLISION_MAP
+CELL
+TRIANGLE
+UIScreen
+Actor
+Component
+Renderer
+Transition
+TransitionFade
+Pause
+Quit
+UIButton
+
+これらのクラスは元々あったものをそのまま使ったり、改造したりしたものになります。
+特にここに羅列したものの、上から7つまではほとんど元の形から変えていません。
+
+なお2023年8月10日現在、visualstudioのバージョンが17.6.5以降のものはエラーが出るので、注意していただきたいです。
+以上です。参考にしていただけると幸いです。

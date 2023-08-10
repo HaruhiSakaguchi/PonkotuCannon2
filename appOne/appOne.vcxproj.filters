@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{cc6d4397-bca2-4ccf-993e-a777acca3ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\All">
+      <UniqueIdentifier>{df7a33ff-f2af-43a8-b4ce-4d10ccfe3b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Base">
+      <UniqueIdentifier>{ac3307a1-02c4-4d42-a598-a8aaf121415f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Actor">
+      <UniqueIdentifier>{f5596d9d-82b1-44af-ad41-ba26efc5fa4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\UI">
+      <UniqueIdentifier>{dbff1af7-198e-434e-b9cd-d4d449253685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Sound">
+      <UniqueIdentifier>{852d9934-49e8-466f-b0b8-9c36cbce91b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Camera">
+      <UniqueIdentifier>{4c162ddf-1ea6-4a3c-854a-fa9172f495f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{98c9a855-5188-4bfe-b9f3-e24e4f6f0ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{d4ada6c5-9e4a-4455-bb3b-29e66cdb5e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{f3d64efe-1d0a-487e-92bf-06574cf8630f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transition">
+      <UniqueIdentifier>{7bde7d6c-5774-4da8-8699-7a39c62bbf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transition\Base">
+      <UniqueIdentifier>{02ef6793-7d36-424e-b562-34c16eaceb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transition\Fade">
+      <UniqueIdentifier>{e3c5e32e-3bc2-47f3-8d54-845e4b79f85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionMap">
+      <UniqueIdentifier>{1e433e08-fccc-4819-83fe-7b0109fc7535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{3a84b71e-5621-4867-8d37-fb26cce74f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{0e034d09-6600-4a74-8a30-695ddcf98007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{46987106-3950-418c-9a88-a9c221f55805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Button">
+      <UniqueIdentifier>{44b84172-9078-4ff1-9952-90621a2dd8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ALLBase">
+      <UniqueIdentifier>{142eda35-8660-4aa2-a155-458b4e6ce7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Button\Base">
+      <UniqueIdentifier>{af6b7e33-c1e0-4fe7-9bc7-85ff5a763882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Button\Circle">
+      <UniqueIdentifier>{e7e2d264-92bc-4110-a337-97ce72948599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\ALLBase">
+      <UniqueIdentifier>{6b65f3e4-89a5-41bf-b09f-771a5228ff15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\ALLBase">
+      <UniqueIdentifier>{6bd8ac24-1dbb-4f12-a8b9-304f0ebcd75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State">
+      <UniqueIdentifier>{42982b5b-2537-45fb-bcc0-d43e34f456b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\ALLBase">
+      <UniqueIdentifier>{0dced71c-109e-4672-8dfe-b68232523c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase">
+      <UniqueIdentifier>{804cac43-7737-48f1-8eb2-7f9ca980e621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\Pause">
+      <UniqueIdentifier>{5f890e79-f3c2-4874-9754-92801fd98931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\Quit">
+      <UniqueIdentifier>{6481f7cf-6c97-45b4-8b54-967211949224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\Reconfirm">
+      <UniqueIdentifier>{6b4ed064-fce6-46a8-96be-d4393fc416ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\StageSelect">
+      <UniqueIdentifier>{e6b3ad3b-2c34-400e-9a56-de5e4196767b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\GamePlay">
+      <UniqueIdentifier>{c5962479-796c-46a3-a09a-6c6411e11958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\AllClear">
+      <UniqueIdentifier>{16df68bd-a006-4106-9e30-f7022fe83868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\GameOver">
+      <UniqueIdentifier>{ef614bf5-c842-4411-aaaf-f5593efeb90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\StageClear">
+      <UniqueIdentifier>{bd8a365e-13d4-4f2f-9580-8800f08908dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\Title">
+      <UniqueIdentifier>{93bcfb1c-7424-4255-9a33-6bd72b2ddfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\State\MainBase\Base">
+      <UniqueIdentifier>{fa968fb6-e0c4-4a07-add4-37153461424e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Option">
+      <UniqueIdentifier>{4c4ec96b-0c50-4784-82ef-a13cf3b7994a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Help">
+      <UniqueIdentifier>{91e4a30e-6d1c-4de4-a42c-b3f2cfc94e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Loading">
+      <UniqueIdentifier>{dc9fb013-9326-4c94-a1e8-45d8c7d27316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\PopUp">
+      <UniqueIdentifier>{2deec05c-1d07-4112-830c-31b1fd21da1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Help\Base">
+      <UniqueIdentifier>{e0c297c7-8f46-4538-86d5-c362601c17b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle">
+      <UniqueIdentifier>{13ba790b-db64-4b3c-b8a2-4660003b7cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\MiniMap">
+      <UniqueIdentifier>{cbce18bf-28af-4593-b320-fca9fa1e710a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\Generate">
+      <UniqueIdentifier>{ec33e12f-c1b1-4878-924d-1bfc954177bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\Scroll">
+      <UniqueIdentifier>{6f891f95-30aa-4593-a994-f3f191914f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\Log">
+      <UniqueIdentifier>{aaa5e32c-4106-4660-8f12-f17ff65199f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\PlayerHome">
+      <UniqueIdentifier>{24102bc1-b720-49c5-9bcb-971d1ba8ba82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\PSide">
+      <UniqueIdentifier>{8c705b43-e127-4764-8379-ffc40e786af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\PSide\Base">
+      <UniqueIdentifier>{2a2a8c40-2fe1-45cb-836c-0f39d931c042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\PSide\Open">
+      <UniqueIdentifier>{08e63c18-66cb-4034-b6a0-169ba09a496a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Battle\PSide\Close">
+      <UniqueIdentifier>{ef9142dd-fde6-4dbb-a819-82f186baf08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collision">
+      <UniqueIdentifier>{e9fafca1-d206-415d-a00f-98693b2222b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collision\Capsule">
+      <UniqueIdentifier>{e529dee0-f058-4589-8731-6ded5ac8f387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collision\Map">
+      <UniqueIdentifier>{8ce74028-0e89-4044-b33a-e909a06438d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\State">
+      <UniqueIdentifier>{a7fa93fa-be38-4e04-9c36-294307984361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic">
+      <UniqueIdentifier>{de2a78fb-774b-4ecb-b09f-e4e95707e08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Move">
+      <UniqueIdentifier>{0f58c1f5-b567-49a7-ad13-99e4abe3f459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Move\Base">
+      <UniqueIdentifier>{2bb0cd18-97b7-490d-af15-1b67c722ccea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Move\Input">
+      <UniqueIdentifier>{eb0b09d2-49ba-422a-8dd0-d184c0c24b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Base">
+      <UniqueIdentifier>{efff4891-6654-4cac-a89c-b271e48fdc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Mesh">
+      <UniqueIdentifier>{e171cf00-baf8-40d8-b7cb-d75b90648727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Mesh\Base">
+      <UniqueIdentifier>{1c512ef4-b4c6-49e9-a57e-cff2ad41131b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Mesh\Batch">
+      <UniqueIdentifier>{d2d6c91e-1372-43c9-acb4-6a5d2be0dfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Mesh\Tree">
+      <UniqueIdentifier>{2ea66a42-079b-4c5e-b97a-42f226258388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphic\Mesh\HpGauge">
+      <UniqueIdentifier>{9b47ac96-9635-489a-9c40-3929fdb95142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Camera">
+      <UniqueIdentifier>{a57419c6-c70f-4e1e-8721-1a2151ad376a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Map">
+      <UniqueIdentifier>{796b45ae-6186-4163-a3ab-7dce258604f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Perticle">
+      <UniqueIdentifier>{1037126d-8c05-4ed8-a39f-5169659b3b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Map\Base">
+      <UniqueIdentifier>{18ee9e21-6d39-4189-bfc3-e12e9ce957d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Camera\Base">
+      <UniqueIdentifier>{8c49b3c2-2d08-4a8f-a6e9-777766800a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character">
+      <UniqueIdentifier>{4ca942e1-be59-4353-8dfe-58a21d64ceea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Base">
+      <UniqueIdentifier>{bc051158-1f49-4e4e-8831-6124c5eb04ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Item">
+      <UniqueIdentifier>{4a867175-9549-4250-a5c3-d5f8634ea658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\PSide">
+      <UniqueIdentifier>{eadc4f54-d0b5-481f-a46d-0085cec8a92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon">
+      <UniqueIdentifier>{c4cbdbb1-5195-431d-8bd8-b3d8bdac6a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Enemy">
+      <UniqueIdentifier>{da3cf786-08f2-420b-b104-bfa1828f1c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Home">
+      <UniqueIdentifier>{4300188d-1477-47c5-9144-db90bf44bbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Home\Dore">
+      <UniqueIdentifier>{3467b96c-dd66-47c4-9eae-4523a66782cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Home\EHome">
+      <UniqueIdentifier>{658a29f5-853a-49c0-9bea-ba91936f6537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Home\PHome">
+      <UniqueIdentifier>{a67a6d9a-213d-48c4-94a4-abf4d61fce11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\PSide\Base">
+      <UniqueIdentifier>{ba2cef0f-011c-4840-8f46-616501b70d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Item\Effect">
+      <UniqueIdentifier>{111e78e2-ee0d-49e0-b8a7-7f0d0d472c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Item\Object">
+      <UniqueIdentifier>{2e8af9eb-d8cf-4c36-b1de-322123906baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Enemy\Base">
+      <UniqueIdentifier>{d870b10a-1376-4f2e-97ee-c5a6da044098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Enemy\Satellite">
+      <UniqueIdentifier>{7e27a1d7-839d-4284-915d-81874144de45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Enemy\Tama">
+      <UniqueIdentifier>{93f3437f-5b13-49ca-b4f8-b087d5df90ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\PSide\Barricade">
+      <UniqueIdentifier>{da563e4f-f6ec-4526-ae3e-1bfeafb2b4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\PSide\Cannon">
+      <UniqueIdentifier>{d602281b-6c4f-4550-8098-22402e96b2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Base">
+      <UniqueIdentifier>{93f79400-aa26-44d3-85e7-80ec8b87cafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Sphere">
+      <UniqueIdentifier>{f6516f55-e8ad-4204-90f3-ff4511a0c1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Arrow">
+      <UniqueIdentifier>{6fa516cf-3a67-47b7-8791-77ab04f218fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\SatelliteWing">
+      <UniqueIdentifier>{1be232b2-50ba-42d3-a1b6-a30fab4e540a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Arrow\Base">
+      <UniqueIdentifier>{aaecdc8a-7cfe-4c97-9103-5d31864ccf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Arrow\Player">
+      <UniqueIdentifier>{d2c87ff1-2fd6-4c3a-9e10-926c195a602a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Arrow\Enemy">
+      <UniqueIdentifier>{467ded0a-106c-4d93-a4e1-d49fa8f957a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Sphere\Base">
+      <UniqueIdentifier>{3cbd5cc6-4471-47b9-a392-7eb153c68b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Sphere\PlayerBullet">
+      <UniqueIdentifier>{f6710804-2845-482c-b93d-58ca11401443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Sphere\SatelliteBullet">
+      <UniqueIdentifier>{83566153-2fcc-4686-b337-db1690779a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Character\Weapon\Sphere\TamaWeapon">
+      <UniqueIdentifier>{f8eee8c8-3806-4f6e-bec8-50cbaa548ea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameManager\All</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>GameManager\All</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>GameManager\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundVolumeManager.cpp">
+      <Filter>GameManager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorManager.cpp">
+      <Filter>GameManager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>GameManager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>GameManager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MODEL_COLLISION.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionFade.cpp">
+      <Filter>Transition\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>Transition\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIANGLE.cpp">
+      <Filter>CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_MAP.cpp">
+      <Filter>CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CELL.cpp">
+      <Filter>CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreen.cpp">
+      <Filter>UI\ALLBase</Filter>
+    </ClCompile>
+    <ClCompile Include="UICircleButton.cpp">
+      <Filter>UI\Button\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>UI\Button\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component\ALLBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Actor\ALLBase</Filter>
+    </ClCompile>
+    <ClCompile Include="UIState.cpp">
+      <Filter>UI\State\ALLBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>UI\State\MainBase\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClear.cpp">
+      <Filter>UI\State\MainBase\StageClear</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>UI\State\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit.cpp">
+      <Filter>UI\State\Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>UI\State\MainBase\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>UI\State\MainBase\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="AllClear.cpp">
+      <Filter>UI\State\MainBase\AllClear</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconfirm.cpp">
+      <Filter>UI\State\Reconfirm</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>UI\State\StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMainState.cpp">
+      <Filter>UI\State\MainBase\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPopUp.cpp">
+      <Filter>UI\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMIniMap.cpp">
+      <Filter>UI\Battle\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="UILoading.cpp">
+      <Filter>UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>UI\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHelp.cpp">
+      <Filter>UI\Help</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHelpBase.cpp">
+      <Filter>UI\Help\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScroll.cpp">
+      <Filter>UI\Battle\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPlayerHome.cpp">
+      <Filter>UI\Battle\PlayerHome</Filter>
+    </ClCompile>
+    <ClCompile Include="UILog.cpp">
+      <Filter>UI\Battle\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGenerate.cpp">
+      <Filter>UI\Battle\Generate</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPSideCharacterStatus.cpp">
+      <Filter>UI\Battle\PSide\Open</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPSideCharacterStatusBase.cpp">
+      <Filter>UI\Battle\PSide\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPSideCharacterStatusClose.cpp">
+      <Filter>UI\Battle\PSide\Close</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleComponent.cpp">
+      <Filter>Component\Collision\Capsule</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMapComponent.cpp">
+      <Filter>Component\Collision\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StateComponent.cpp">
+      <Filter>Component\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
+      <Filter>Component\Move\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Component\Move\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>Component\Graphic\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>Component\Graphic\Mesh\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeMeshComponent.cpp">
+      <Filter>Component\Graphic\Mesh\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="HpGaugeSpriteComponent.cpp">
+      <Filter>Component\Graphic\Mesh\HpGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchMeshComponent.cpp">
+      <Filter>Component\Graphic\Mesh\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="LookEHomeCamera.cpp">
+      <Filter>Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LookFieldCenterCamera.cpp">
+      <Filter>Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LookPHomeCamera.cpp">
+      <Filter>Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalCamera.cpp">
+      <Filter>Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Actor\Perticle</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Actor\Map\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Actor\Camera\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterActor.cpp">
+      <Filter>Actor\Character\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Dore.cpp">
+      <Filter>Actor\Character\Home\Dore</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHome.cpp">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFlag.cpp">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHomeStates.cpp">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome.cpp">
+      <Filter>Actor\Character\Home\PHome</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFlag.cpp">
+      <Filter>Actor\Character\Home\PHome</Filter>
+    </ClCompile>
+    <ClCompile Include="PSideCharacterActor.cpp">
+      <Filter>Actor\Character\PSide\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Actor\Character\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEffect.cpp">
+      <Filter>Actor\Character\Item\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>Actor\Character\Item\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Actor\Character\Enemy\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>Actor\Character\Enemy\Satellite</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteStates.cpp">
+      <Filter>Actor\Character\Enemy\Satellite</Filter>
+    </ClCompile>
+    <ClCompile Include="TamaStates.cpp">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClCompile>
+    <ClCompile Include="TamaBlackEye.cpp">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClCompile>
+    <ClCompile Include="Tama.cpp">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClCompile>
+    <ClCompile Include="Barricade.cpp">
+      <Filter>Actor\Character\PSide\Barricade</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonWheelR.cpp">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonWheelL.cpp">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonStates.cpp">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon.cpp">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorsWeapon.cpp">
+      <Filter>Actor\Character\Weapon\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteWing.cpp">
+      <Filter>Actor\Character\Weapon\SatelliteWing</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Actor\Character\Weapon\Arrow\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyArrow.cpp">
+      <Filter>Actor\Character\Weapon\Arrow\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerArrow.cpp">
+      <Filter>Actor\Character\Weapon\Arrow\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TamaWeapon.cpp">
+      <Filter>Actor\Character\Weapon\Sphere\TamaWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereWeapon.cpp">
+      <Filter>Actor\Character\Weapon\Sphere\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteBullet.cpp">
+      <Filter>Actor\Character\Weapon\Sphere\SatelliteBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Actor\Character\Weapon\Sphere\PlayerBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>GameManager\All</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>GameManager\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundVolumeManager.h">
+      <Filter>GameManager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorManager.h">
+      <Filter>GameManager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>GameManager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>GameManager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MODEL_COLLISION.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionFade.h">
+      <Filter>Transition\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Transition\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TRIANGLE.h">
+      <Filter>CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_MAP.h">
+      <Filter>CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CELL.h">
+      <Filter>CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreen.h">
+      <Filter>UI\ALLBase</Filter>
+    </ClInclude>
+    <ClInclude Include="UICircleButton.h">
+      <Filter>UI\Button\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>UI\Button\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component\ALLBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Actor\ALLBase</Filter>
+    </ClInclude>
+    <ClInclude Include="UIState.h">
+      <Filter>UI\State\ALLBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>UI\State\MainBase\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClear.h">
+      <Filter>UI\State\MainBase\StageClear</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>UI\State\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit.h">
+      <Filter>UI\State\Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>UI\State\MainBase\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>UI\State\MainBase\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="AllClear.h">
+      <Filter>UI\State\MainBase\AllClear</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconfirm.h">
+      <Filter>UI\State\Reconfirm</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>UI\State\StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMainState.h">
+      <Filter>UI\State\MainBase\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPopUp.h">
+      <Filter>UI\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMIniMap.h">
+      <Filter>UI\Battle\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="UILoading.h">
+      <Filter>UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>UI\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHelp.h">
+      <Filter>UI\Help</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHelpBase.h">
+      <Filter>UI\Help\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScroll.h">
+      <Filter>UI\Battle\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPlayerHome.h">
+      <Filter>UI\Battle\PlayerHome</Filter>
+    </ClInclude>
+    <ClInclude Include="UILog.h">
+      <Filter>UI\Battle\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGenerate.h">
+      <Filter>UI\Battle\Generate</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPSideCharacterStatus.h">
+      <Filter>UI\Battle\PSide\Open</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPSideCharacterStatusBase.h">
+      <Filter>UI\Battle\PSide\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPSideCharacterStatusClose.h">
+      <Filter>UI\Battle\PSide\Close</Filter>
+    </ClInclude>
+    <ClInclude Include="SEGMENT.h">
+      <Filter>Component\Collision\Capsule</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleComponent.h">
+      <Filter>Component\Collision\Capsule</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMapComponent.h">
+      <Filter>Component\Collision\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="StateComponent.h">
+      <Filter>Component\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Component\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>Component\Move\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Component\Move\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Component\Graphic\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>Component\Graphic\Mesh\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeMeshComponent.h">
+      <Filter>Component\Graphic\Mesh\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="HpGaugeSpriteComponent.h">
+      <Filter>Component\Graphic\Mesh\HpGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchMeshComponent.h">
+      <Filter>Component\Graphic\Mesh\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="LookEHomeCamera.h">
+      <Filter>Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LookFieldCenterCamera.h">
+      <Filter>Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LookPHomeCamera.h">
+      <Filter>Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCamera.h">
+      <Filter>Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Actor\Perticle</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Actor\Map\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Actor\Camera\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterActor.h">
+      <Filter>Actor\Character\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Dore.h">
+      <Filter>Actor\Character\Home\Dore</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFlag.h">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHomeStates.h">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHome.h">
+      <Filter>Actor\Character\Home\EHome</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome.h">
+      <Filter>Actor\Character\Home\PHome</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFlag.h">
+      <Filter>Actor\Character\Home\PHome</Filter>
+    </ClInclude>
+    <ClInclude Include="PSideCharacterActor.h">
+      <Filter>Actor\Character\PSide\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Actor\Character\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEffect.h">
+      <Filter>Actor\Character\Item\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObject.h">
+      <Filter>Actor\Character\Item\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Actor\Character\Enemy\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite.h">
+      <Filter>Actor\Character\Enemy\Satellite</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteStates.h">
+      <Filter>Actor\Character\Enemy\Satellite</Filter>
+    </ClInclude>
+    <ClInclude Include="TamaStates.h">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClInclude>
+    <ClInclude Include="TamaBlackEye.h">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClInclude>
+    <ClInclude Include="Tama.h">
+      <Filter>Actor\Character\Enemy\Tama</Filter>
+    </ClInclude>
+    <ClInclude Include="Barricade.h">
+      <Filter>Actor\Character\PSide\Barricade</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonWheelR.h">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonWheelL.h">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonStates.h">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon.h">
+      <Filter>Actor\Character\PSide\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorsWeapon.h">
+      <Filter>Actor\Character\Weapon\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteWing.h">
+      <Filter>Actor\Character\Weapon\SatelliteWing</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyArrow.h">
+      <Filter>Actor\Character\Weapon\Arrow\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Actor\Character\Weapon\Arrow\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerArrow.h">
+      <Filter>Actor\Character\Weapon\Arrow\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TamaWeapon.h">
+      <Filter>Actor\Character\Weapon\Sphere\TamaWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereWeapon.h">
+      <Filter>Actor\Character\Weapon\Sphere\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteBullet.h">
+      <Filter>Actor\Character\Weapon\Sphere\SatelliteBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Actor\Character\Weapon\Sphere\PlayerBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

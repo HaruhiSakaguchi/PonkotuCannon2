@@ -1,0 +1,4 @@
+SoundSwitch  1
+BgmSwitch  1
+Effect  -450
+Set  -1300
